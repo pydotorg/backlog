@@ -28,7 +28,22 @@ It is possible to install RoundUp, but it needs some work before people will be 
 
 #### Crediting vs Licensing
 
+Crediting  helps people prove their value, find each other, compare and
+collaborate together. Licensing is one of a ways to enforce crediting, but
+enforcing can hardly be named a way for any technical community.
 
+Alternative to Licensing is counting contributions:
+ - http://www.red-bean.com/svnproject/contribulyzer/
+ - http://sourceforge.net/p/roundup/code/ci/default/tree/scripts/contributors.py
+ - https://twistedmatrix.com/highscores/
+
+Proper crediting requires people to think more about other in commit / merge
+messages, but it has a positive effect on community grow.
+ 
+With non-enforced crediting the site still should provide a value for
+collaborators. The best thing we can make is a CC0 / Unlicense/ Public Domain
+codebase with no strings attached. Snippets that can be copied and enhanced
+without bearing a lot of paper stuff around.
 
 #### History
 
