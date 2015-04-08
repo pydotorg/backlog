@@ -1,24 +1,24 @@
-This is a tracker for community services that couldn't find a place on python.org for various reasons. pydotorg is a short name for *.python.org among which are:
+GitHub tracker for Python community services. It is a point of reference for keeping ideas, bugs and tasks in one place that is easy to grep for hackatons and sprints. This is a temporary solution until services on *.python.org become more convenient to use than GitHub. The backlog here allows more people to work on Python services in parallel with official channels.
 
 * web site - http://python.org/ - https://github.com/python/pythondotorg/
 * wiki - https://wiki.python.org/moin/ - https://github.com/pydotorg/backlog/labels/Wiki
 * bugtracker - https://bugs.python.org - https://wiki.python.org/moin/TrackerDevelopment
 
-#### Why GitHub tracker?
+#### Why GitHub?
 
-This is a temporary tracker for collecting and working on usability issues in Python services until the services become more convenient to use than GitHub.
+Collaboration and synchronization on Python wiki and proposed services such as http://login.python.org/ is hard. Official way assumes email-based communication model and specification-driven (waterfall) language development. But there should be a place with greater freedom for experiments with alternative approaches.
 
-There is no tracker for wiki, web-site and other `misc` stuff of `python.org` [software farm](http://wiki.python.org/moin/Inventory), because maintaining additional RoundUp instances [incurs additional overhead](http://psf.upfronthosting.co.za/roundup/meta/issue340) which current volunteers can not afford.
+It is possible to install RoundUp, but it needs some work before people will be able to use and enhance it. Moving it to `[ ]` Jinja2, which requires moving to `utf-8` as internal encoding, `[ ]` adding OpenID Connect as standard feature.
 
-Nowadays no real collaboration is possible on the Internet with no tracker at all, so there was a need to use something, and here is it.
+#### What is it good for?
 
-## Why Google Code? ##
-It was the most simple one to setup and tune (while being quite powerful at the same time). There should be a feature comparison somewhere, but I couldn't find the time to work this out.
+* [ ] vote on the features (not sure it has stars concept like Google Code)
+* [x] select stuff to work on
+* [x] coordinate during sprints
+* [x] separate and cross-reference ideas between python.org web-site, wiki, etc.
+* [ ] provide place for design, art, user stories and other things that don't fit anywhere else
 
-## What is it for? ##
-For [everything](http://code.google.com/p/pydotorg/issues/list) related to python.org services. It is a point of reference for keeping requests, bugs and proposals in one place that may also become a shared playground for developing these services. Stars can be used to mark more important features. Labels to separate ideas around python.org web-site, wiki, design, and user stories.
-
-## Goals ##
+#### Goals
   1. Encourage creating useful tools for Python development outside of python.org domain
   1. Create open collaboration platform for new services and cross-issues that don't fit other trackers
   1. Make Python development process less restrictive and time consuming. Free core developers from needless routines and let them concentrate on those part of Python that need more attention to help it be an awesome tool
@@ -26,14 +26,12 @@ For [everything](http://code.google.com/p/pydotorg/issues/list) related to pytho
   1. Promote healthful cooperation with upstream projects, involve upstream maintainers
   1. Share the results, attract more people, and have fun
 
-## Epilogue ##
+#### Crediting vs Licensing
 
-Google Code can hardly be a universal collaborative platform, but it is a good starting point to organize issues, ideas and enhancements (an addition to Wiki pages for [site](http://wiki.python.org/moin/SiteImprovements) and [tracker](http://wiki.python.org/moin/DesiredTrackerFeatures)) that can make the process more fun and engaging.
 
-## License ##
-Preferred license is MIT as there is no less restrictive license on Google Code.
 
-## History ##
+#### History
+
 It started in April 2010..
 http://mail.python.org/pipermail/pydotorg-www/2010-April/thread.html
 
@@ -41,6 +39,13 @@ http://mail.python.org/pipermail/pydotorg-www/2010-April/thread.html
 http://richleland.bitbucket.org/pydotorg-pm/index.html
 http://mail.python.org/pipermail/pydotorg-www/2010-May/000386.html
 
-This tracker was opened in November 2010 when it became obvious that Python development community needs a tracker to self-organize.
+..opened tracker on Google Code in November 2010
+http://code.google.com/p/pydotorg
 
-As of November 2012 it appears to be a personal tracker of a single person as it appears nobody else is interested in tracker coordination point for pydotorg improvements.
+..on November 2012 it appeared that involvement and participation is low
+
+..on June 2014 python.org got new a site and GitHub tracker
+https://github.com/python/pythondotorg/
+
+..April 2015 Google Code service is being shutdown, migrated to GitHub
+repositioned the tracker to be more open and less dependent on single person
