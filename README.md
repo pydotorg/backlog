@@ -1,14 +1,12 @@
-**UPD 201406**: After 4 years http://python.org finally got an issue tracker at https://github.com/python/pythondotorg/issues
+This is a tracker for community services that couldn't find a place on python.org for various reasons. pydotorg is a short name for *.python.org among which are:
 
+* web site - http://python.org/ - https://github.com/python/pythondotorg/
+* wiki - https://wiki.python.org/moin/ - https://github.com/pydotorg/backlog/labels/Wiki
+* bugtracker - https://bugs.python.org - https://wiki.python.org/moin/TrackerDevelopment
 
+#### Why GitHub tracker?
 
-
-This is my personal tracker for `*`.python.org wannabes and other community services that couldn't find a place on python.org for political reasons.
-
-## Why external tracker? ##
-`*`.python.org has several trackers maintained by volunteers. These are:
-  * bugs.python.org  - for bugs in Python interpreter and standard library
-  * TBD
+This is a temporary tracker for collecting and working on usability issues in Python services until the services become more convenient to use than GitHub.
 
 There is no tracker for wiki, web-site and other `misc` stuff of `python.org` [software farm](http://wiki.python.org/moin/Inventory), because maintaining additional RoundUp instances [incurs additional overhead](http://psf.upfronthosting.co.za/roundup/meta/issue340) which current volunteers can not afford.
 
