@@ -1,4 +1,9 @@
-GitHub tracker for Python community services. It is a point of reference for keeping ideas, bugs and tasks in one place that is easy to grep for hackatons and sprints. This is a temporary solution until services on *.python.org become more convenient to use than GitHub. The backlog here allows more people to work on Python services in parallel with official channels.
+GitHub tracker for Python community services.
+
+* see [what's going on](https://github.com/pydotorg/backlog/pulse)
+* looks at [recent commits](https://github.com/pydotorg/backlog/commits/master) and commit to your ideas
+
+It is a point of reference for keeping ideas, bugs and tasks in one place that is easy to grep for hackatons and sprints. This is a temporary solution until services on *.python.org become more convenient to use than GitHub. The backlog here allows more people to work on Python services in parallel with official channels.
 
 * web site - http://python.org/ - https://github.com/python/pythondotorg/
 * wiki - https://wiki.python.org/moin/ - https://github.com/pydotorg/backlog/labels/Wiki
